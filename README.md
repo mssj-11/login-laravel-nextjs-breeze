@@ -27,7 +27,7 @@
 ####    Back-end
 `php artisan serve`
 ####    Front-end
-`php artisan serve`
+`npm run dev`
 
 
 #   Uso de otras tecnologías:
