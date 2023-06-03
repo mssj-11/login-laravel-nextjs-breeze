@@ -15,6 +15,10 @@
 *	**Next js:** 
 
 
+#   Requisitos necesarios:
+*   Node js
+*   Composer
+*   Xampp/Wamp
 
 #	Proceso:
 ###	Creando la APP
@@ -42,7 +46,7 @@ En la carpeta **\app\Providers** <br>
 En el archivo `AppServiceProvider.php` agregar en la función **boot** y su respectiva ruta:
 `Schema::defaultStringLength(191);` 
 
-##  Encender el servidor (XAMP / WAMP)
+##  Encender el servidor (XAMPP / WAMP)
 ###  Ejecutando las Migraciones:
 `php artisan migrate`
 Automáticamente creara las tablas 
