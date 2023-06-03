@@ -42,7 +42,7 @@ En la carpeta **\app\Providers** <br>
 En el archivo `AppServiceProvider.php` agregar en la función **boot** y su respectiva ruta:
 `Schema::defaultStringLength(191);` 
 
-##  Encender el servidor (XAMMP / WAMMP)
+##  Encender el servidor (XAMP / WAMP)
 ###  Ejecutando las Migraciones:
 `php artisan migrate`
 Automáticamente creara las tablas 
